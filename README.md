@@ -10,6 +10,8 @@ The inventory system operates using a list of instances of an object called an I
 
 Characters have six semi-randomized base stats: Strength, Intelligence, Charisma, Endurance, Vitality, and Composure. They also have two combat stats: Attack and Defense. These are derived from the character's Strength and Composure, respectively. The character's maximum Health, Energy, and Sanity values are derived from their Vitality, Endurance, and Composure, respectively. These stats being semi-randomized will allow for characters to be generated dynamically in a similar fashion to equipment. In the future, the player will encounter characters throughout the world and may then decide to add them to their party.
 
+Currently, the game randomly generates a party of 4 characters with preset names and places one of each item currently implemented into the player's inventory. This is only for testing purposes.
+
 KNOWN ISSUES:
 - Game crashes if the player kicks all characters out of their party. A simple check will be implemented in the future to ensure the player cannot do this.
 - Equipment system does not yet calculate base stat modifiers from equipment correctly. Likely due to recent changes to how modifiers are stored within an ItemStack.
